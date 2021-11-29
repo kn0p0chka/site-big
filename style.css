@@ -1,0 +1,53 @@
+body {
+  margin: 0;
+}
+
+.big {
+  display: flex;
+  justify-content: space-between;
+  max-width: 950px;
+}
+
+.f {
+  width: 32%;
+  border: 1px solid lightgrey;
+  padding: 38px 22px 38px 22px;
+  box-sizing: border-box;
+}
+
+.title {
+  font-family: "Open Sans", sans-serif;
+  font-weight: bold;
+  color: #48555b;
+  font-size: 16px;
+  margin-bottom: 25px;
+}
+
+.text {
+  font-family: "Open Sans", sans-serif;
+  font-size: 13px;
+  font-weight: normal;
+  line-height: 23px;
+  color: #48555b;
+}
+
+.one {
+  margin-left: 15px;
+}
+
+@media (max-width: 755px) {
+  .big {
+    display: block;
+  }
+
+  .f {
+    margin: auto;
+    width: 60%;
+  }
+}
+
+@media (max-width: 425px) {
+  .card {
+    width: initial;
+  }
+}
